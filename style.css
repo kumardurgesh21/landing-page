@@ -1,0 +1,158 @@
+
+/* Styles for the navbar */
+
+.navbar {
+  overflow: hidden;
+  text-align: center; /* Center the text */
+}
+
+/* Style the navbar links */
+.navbar a {
+    color: #f2f2f2;
+    background-color: rgb(23, 2, 58);
+    border: 3px solid blue;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change the background color on hover */
+.navbar a:hover {
+  background-color: #fe0101;
+  color: black;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    display: inline-block; /* Display inline for small screens */
+    width: auto; /* Set width to auto */
+    margin: 0 5px; /* Add margin for spacing */
+  }
+}
+#telegram-btn{
+   
+
+    display: flex;
+justify-content: center
+}
+#tele-btn{
+font-size: large;
+font-family: serif;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    background-color: #2e0053;
+    border-radius: 5px;
+
+}
+#tele-btn:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+#register-btn{
+   
+
+    display: flex;
+justify-content: center
+}
+#btn{
+font-size: large;
+font-family: serif;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    background-color: #530000;
+    border-radius: 5px;
+
+}
+#btn:hover{
+    background-color: rgb(16, 1, 33);
+}
+.logo{
+    display: flex;
+    justify-content: center; 
+}
+.tirangalogo{
+    height: 180px;
+    width: 280px;
+}
+table, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+.tbl{
+ 
+    display: flex;
+    justify-content: center; 
+
+}
+.para1{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 78, 7);
+    display: flex;
+    justify-content: center; 
+    padding-left: 10px;
+}
+
+.telegram{
+    background-color: #ddff02;
+color: white;
+}
+
+#para2{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#451c05;
+    display: flex;
+    justify-content: center; 
+    padding-left: 10px;
+}
+#para3{
+font-size: medium;
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+background-color: #032f45;
+display: flex;
+justify-content: center; 
+padding-left: 10px;
+}
+.recharge-bonus{
+    display: flex;
+justify-content: center; 
+}
+.bonus2{
+    height: 300px;
+    width: 200px;
+}
+.bonus1{
+    height: 300px;
+    max-width:  300px;
+}
+li{
+   
+    list-style: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #015a02;
+    display:inline-flex;
+    list-style: none;
+    padding: 9px 9px 9px  9px;
+    margin: 5px;
+    
+}
+
+.nav{
+  background-color: rgba(157, 252, 252, 0);
+text-align: center;   
+
+}
+
+.reg-btn{
+    text-decoration: dashed;
+    color: white;
+}
